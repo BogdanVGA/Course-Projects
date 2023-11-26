@@ -1,3 +1,5 @@
+package registrationSystem;
+
 public class Guest {
 
     private String lastName;

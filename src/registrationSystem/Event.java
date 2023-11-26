@@ -1,3 +1,5 @@
+package registrationSystem;
+
 import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.List;
@@ -279,7 +281,7 @@ public class Event {
 
     @Override
     public String toString() {
-        return "Guest list:\n" + guestList +
+        return "registrationSystem.Guest list:\n" + guestList +
                 "Waiting list:\n" + waitList;
     }
 }
