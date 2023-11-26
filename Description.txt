@@ -1,6 +1,6 @@
 System for managing the registration of participants to a particular event. The system implements a list of participants and a waiting list, in case the capacity allocated to the event is exceeded.
 
 The implementation will consist of 3 component parts:
-1. a representation of a participant - the Guest class
-2. a class that implements the management of the list of participants - the GuestsList class
-3. a main class, which represents the engine of the application. This will accept commands from the user, perform the appropriate actions on the join lists, and respond to queries - class Main
+1. a representation of a participant - the 'Guest' class
+2. a class that implements the management of the list of participants - the 'Event' class
+3. a 'Main' class, which represents the engine of the application. It will implement a user menu, perform the appropriate actions on the lists and respond to queries from the user.
