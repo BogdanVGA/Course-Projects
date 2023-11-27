@@ -1,0 +1,14 @@
+Application designed to manage a set of surprises.
+
+The final goal is to obtain a generic system capable of:
+     use multiple surprise types (i.e. implement a common interface)
+     implement various algorithms for storing and giving surprises
+     use a random mechanism to generate a (new) set of surprises
+     
+Each surprise will implement a common interface -> ISurprise. The types of surprises are: fortune cookies, candies and minion toys.
+ 
+The surprises will be stored in bags and each type of bag will implement a specific order to take out the susrprises contained in it: random, FIFO (queue) and LIFO (stack).
+
+The bags will be created using a factory pattern. The BagFactory class implements a singleton.
+
+For giving out surprises, the project implements an abstract class that is further extended to implement three specific options.
